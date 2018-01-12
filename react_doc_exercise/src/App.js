@@ -4,7 +4,7 @@ import './App.css';
 
 /* importing components I create */
 import HelloWold from './HelloWorld';
-
+import IntroToJSX from './IntroToJSX';
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
         </p>
 
         <HelloWold />
-
+        <IntroToJSX />
 
       </div>
     );
