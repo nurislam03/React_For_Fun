@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-/* importing components I create */
+/* importing components I created */
 import HelloWold from './HelloWorld';
 import IntroToJSX from './IntroToJSX';
+import JSXobject from './JSXobject';
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
 
         <HelloWold />
         <IntroToJSX />
+        <JSXobject />
 
       </div>
     );
