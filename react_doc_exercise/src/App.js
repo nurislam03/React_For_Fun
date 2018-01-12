@@ -6,6 +6,7 @@ import './App.css';
 import HelloWold from './HelloWorld';
 import IntroToJSX from './IntroToJSX';
 import JSXobject from './JSXobject';
+import UpdatingRenderedElement from './UpdatingRenderedElement';
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
         <HelloWold />
         <IntroToJSX />
         <JSXobject />
+        <UpdatingRenderedElement />
 
       </div>
     );
