@@ -38,7 +38,7 @@ class Page extends Component {
     render() {
         return (
             <div>
-                <h2>Lesson 7: Preventing Component From Rendering </h2>
+                <h2>Lesson 7: Page | Preventing Component From Rendering </h2>
                 <WarningBanner warn={this.state.showWarning} />
                 <button onClick={this.handleToggleClick}>
                     {this.state.showWarning ? 'Hide' : 'Show'}

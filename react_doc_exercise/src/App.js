@@ -10,6 +10,7 @@ import UpdatingRenderedElement from './UpdatingRenderedElement';
 import ButtonToggle from './ButtonToggle';
 import LoginControl from './LoginControl';
 import Page from './Page';
+import ListsAndKeys from './ListsAndKeys';
 
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
         <ButtonToggle />
         <LoginControl />
         <Page />
+        <ListsAndKeys />
 
       </div>
     );
