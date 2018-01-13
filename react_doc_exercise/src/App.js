@@ -8,6 +8,7 @@ import IntroToJSX from './IntroToJSX';
 import JSXobject from './JSXobject';
 import UpdatingRenderedElement from './UpdatingRenderedElement';
 import ButtonToggle from './ButtonToggle';
+import LoginControl from './LoginControl';
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
         <JSXobject />
         <UpdatingRenderedElement />
         <ButtonToggle />
+        <LoginControl />
 
       </div>
     );
