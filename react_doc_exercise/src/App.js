@@ -11,6 +11,7 @@ import ButtonToggle from './ButtonToggle';
 import LoginControl from './LoginControl';
 import Page from './Page';
 import ListsAndKeys from './ListsAndKeys';
+import Forms from './Forms';
 
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
         <LoginControl />
         <Page />
         <ListsAndKeys />
+        <Forms />
 
       </div>
     );

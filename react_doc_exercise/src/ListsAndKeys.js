@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const numbers = [1, 2, 3, 4, 5];
 
-/* Rendering Multiple componets */
+/* Rendering Multiple components */
 function ListItem(props) {
     return <li>{props.value}</li>;
 }
@@ -21,7 +21,7 @@ class ListsAndKeys extends Component {
     render() {
         return (
             <div>
-                <h2>Lesson 8: List and Keys | Multiple componets Rendering</h2>
+                <h2>Lesson 8: List and Keys | Multiple components Rendering</h2>
                 <NumberList numbers={numbers} />
             </div>
         );

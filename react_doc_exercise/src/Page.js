@@ -29,11 +29,12 @@ class Page extends Component {
     }*/
 
     /* no need to bind 'this' in constructor section if I use the below syntax */
-    handleToggleClick = () =>
+    handleToggleClick = () => {
         this.setState (prevState => ({
-            showWarning: !prevState.showWarning
-        })
-    )
+                showWarning: !prevState.showWarning
+            })
+        )
+    }
 
     render() {
         return (
