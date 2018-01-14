@@ -132,7 +132,7 @@ class Reservation extends Component {
         super(props);
         this.state = {
             isGoing: true,
-            numberOfGuests: 2
+            numberOfGuests: 0
         };
     }
 
