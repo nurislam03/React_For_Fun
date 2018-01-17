@@ -13,6 +13,7 @@ import Page from './Page';
 import ListsAndKeys from './ListsAndKeys';
 import Forms from './Forms';
 import Celsius_Fahrenheit_Conversion from './Celsius_Fahrenheit_Conversion';
+import SignUpDialog from './SignUpDialog';
 
 
 class App extends Component {
@@ -39,6 +40,7 @@ class App extends Component {
         <ListsAndKeys />
         <Forms />
         <Celsius_Fahrenheit_Conversion />
+        <SignUpDialog />
 
       </div>
     );
